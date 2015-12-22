@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lla"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp"
+    android:drawablePadding="15dp"
+    android:text="@string/app_name"
+    android:gravity="center_vertical"
+    android:textSize="16sp">
+
+</TextView>
+<!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/layout-large/left_nav_item.xml -->

@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+		<TextView
+		    android:id="@+id/txtAddress"
+		    android:layout_width="match_parent"
+		    android:layout_height="20dp"
+		    android:ellipsize="end"
+		    android:singleLine="true"
+		    android:visibility="gone"
+		     />
+
+		<LinearLayout android:layout_width="wrap_content"
+              android:layout_height="0dp"
+              android:layout_weight="1.80"
+              android:orientation="vertical" 
+              android:id="@+id/map">
+		
+		    
+		</LinearLayout>
+       
+	<Button android:id="@+id/btnSelectPosition"
+	    android:text="@string/selectPosition"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+        android:layout_weight="0.20"
+        android:background="#ad6327"
+        android:textColor="@drawable/button_text_color"
+        android:gravity="center"
+        android:layout_marginBottom="0dp"
+	    >
+	    
+	    </Button>	
+</LinearLayout><!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/layout/activity_location_picker_map.xml -->

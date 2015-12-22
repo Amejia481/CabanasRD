@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+  >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:fillViewport="true"
+    android:layout_marginBottom="55dp">
+<LinearLayout android:orientation="vertical"
+    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center_horizontal">
+    <Button
+	    android:id="@+id/btnTellFull"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/tellTheMotelIsFull" 
+	     />
+   
+    <Button
+	    android:id="@+id/btnTellMedium"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/tellTheMotelIsMedium" 
+	     />
+    
+        <Button
+	    android:id="@+id/btnTellEmpty"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/tellTheMotelIsEmpty" 
+	     />
+</LinearLayout>
+	
+
+</ScrollView>
+
+</RelativeLayout>

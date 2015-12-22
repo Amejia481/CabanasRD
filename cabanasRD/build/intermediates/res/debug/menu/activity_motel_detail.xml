@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:com.cabanasrd="http://schemas.android.com/apk/res-auto"
+    >
+ <item android:id="@+id/action_share_app" 
+        com.cabanasrd:showAsAction="ifRoom"
+        android:icon="@drawable/ic_share"
+        android:title="@string/lblShare"/>
+
+</menu>
+<!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/menu/activity_motel_detail.xml -->

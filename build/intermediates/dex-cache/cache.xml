@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-4c64a0914372f39985f313550d5cdc03929d42a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-713d1178ff992dfb3d51e1fce42e42211b02e0ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\libs\prettytime-3.2.7.Final.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b216ebcf284752a40e11c39c2ea62bc45528c33">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\prettytime-3.2.7.Final-ac966efab1cc1b7b30419b1f7f494f3d980a0584.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.3\56498efd17752898cfcc3868c1b6211a07b12b8f\joda-time-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\joda-time-2.3-221151b515dc3493541aaeb52c8d4395bbaa2e45.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.11\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0f700f6802ba1a1f1fa7ac26d5db0666a89d75a6">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\classes-fc49d01d4c8931f1601978da5a74a60e6aa59962.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\exploded-aar\cabanasRD\backgroundMailLibrary\unspecified\libs\activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\activation-2cfe7f51b1652d86fd9ed659406375ee10f40a7f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\exploded-aar\cabanasRD\backgroundMailLibrary\unspecified\libs\mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\mail-4de66a4a9c36abf5565fc92d6fa4fbf40f88fd3d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Desktop\nuevo eclipse\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-4bca2d8dd23d3de38af6857f9e364cf4112fc75d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\exploded-aar\cabanasRD\backgroundMailLibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6682a3694662136d4db3d59c3774b33aaff5bbe9">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\classes-568e3fcb469d10b923d4f7ffa36f36b8d53b15c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\exploded-aar\cabanasRD\backgroundMailLibrary\unspecified\libs\additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\additionnal-7161aa7087a62403fae72e3757b1b369fddce4d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\classes-e86292d178998b468a43d834df3bec56554a3ac3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\gson-2.3.1-3ad8ed7d6d98751b67369161d55787fb4f67a120.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\classes-96a40131aed80a9845eca29c326a0545fa95781b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\exploded-aar\cabanasRD\backgroundMailLibrary\unspecified\libs\additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\additionnal-692dfe5914027658ccdc7cb049a61d5f32d82ab3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\classes-642453ebe2c1c55de3297632f76206d0ceb576f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\classes-4fa859f037cbf0dc82c130fedff576fbc59d2d08.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\libs\prettytime-3.2.7.Final.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b216ebcf284752a40e11c39c2ea62bc45528c33">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\prettytime-3.2.7.Final-f5ec76991732b8e65fe1cd761ec12ef6ff0831c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\exploded-aar\cabanasRD\backgroundMailLibrary\unspecified\libs\mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\mail-399ba24144f5e27816e76c635fbf47702a4b052e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-8a5b1128e862653cd7ec1b25dc630f5079f3ea70.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\retrofit-1.9.0-5a3544b6d576652c2c192fa6a0db593ec3554852.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\classes-723dc9e766acfa0c25244a7374eb8b952960d6df.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\exploded-aar\cabanasRD\backgroundMailLibrary\unspecified\libs\activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\activation-1f907529bb8cdf3fc736d3430b831e43f62488d6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\exploded-aar\cabanasRD\backgroundMailLibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c75bf99f75b98bb16f1d31bbb1cc063277d07900">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\classes-01118be66c0128dafe92ba5a3fd9ee97c4a0ef0d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-8d550830b4968249f3add0b4b6c4e8604c488a08.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\exploded-aar\cabanasRD\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="38e0c48a01431c82b838950d552ca77bb611bc97">
+        <dex dex="C:\Users\Arturo\git\android studios\cabanasRD\cabanasRD\build\intermediates\pre-dexed\debug\classes-23faa3a8411ffc03f0f762ebbec9a39fc1294438.jar" />
+    </item>
+    <item
+        jar="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\exploded-aar\cabanasRD\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f768a3b680cb5c99bdcdc43512dbaa1b0433383a">
+        <dex dex="C:\Users\Arturo\Downloads\arturomej481-cabanasrdandroid-7049ea4eebf0 (1)\cabanasrd\cabanasRD\build\intermediates\pre-dexed\debug\classes-c73515676fee62586e2390431086c1bf34748362.jar" />
+    </item>
+
+</items>

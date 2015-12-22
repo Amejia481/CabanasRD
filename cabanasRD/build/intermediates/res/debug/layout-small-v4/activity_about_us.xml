@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:orientation="vertical"
+	android:fillViewport="true"
+     >
+
+	<WebView
+    android:id="@+id/webview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+/>
+</LinearLayout><!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/layout-small/activity_about_us.xml -->

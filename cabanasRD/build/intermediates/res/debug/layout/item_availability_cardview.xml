@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/cardview"
+    android:orientation="vertical"
+    >
+
+        <TextView
+                android:id="@+id/lblAvailability"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/aviavility_full"
+                android:text="@string/aviavility_full"
+                android:textSize="25sp"
+			    android:textColor="#fff"
+			    android:padding="10dp"
+                />
+           
+           <LinearLayout
+                android:id="@+id/cardViewInfoAvailability"
+ 	            android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:padding="10dp">
+                <RelativeLayout
+				    android:id="@+id/cardViewInfoContainerUsers" 
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content"
+				    android:padding="2dp"
+				    android:layout_marginTop="10dp">
+					    <LinearLayout
+					    android:layout_width="wrap_content" 
+					    android:layout_height="wrap_content"
+					    android:layout_alignParentLeft="true">
+					        <ImageView 
+					        android:id="@+id/iconUsers"
+					        android:layout_width="24dp"
+					        android:layout_height="24dp"
+					        android:layout_marginTop="1dp"
+					        android:paddingRight="2dp"
+					        android:layout_marginRight="10dp"
+					        android:contentDescription="icon"
+					        android:src="@drawable/user62"
+					        />
+					        <TextView 
+								    android:id="@+id/lblNumberOfUsersThatVoted"
+								    android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"
+								    android:textSize="18sp"
+								    android:text="20"
+								    android:layout_marginTop="3dp"
+								    android:textColor="@color/aviavility_textColor"
+								    android:textIsSelectable="true"
+								    android:clickable="true"
+								    />
+					        
+					    </LinearLayout>
+					    
+					        
+								<TextView 
+								    android:id="@+id/btnHelpCountOfUserThatVoted"
+								    android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"
+								    android:layout_alignParentRight="true"
+								    android:background="@drawable/card_button"
+								    android:textSize="18sp"
+								    android:textColor="#000000"
+								    android:gravity="right"
+								    android:drawableRight="@drawable/ic_action_help"
+								    android:clickable="true"
+								    />
+					    	
+					    </RelativeLayout>
+					    
+                <RelativeLayout
+				    android:id="@+id/cardViewInfoContainerTime" 
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content"
+				    android:padding="2dp"
+				    android:layout_marginTop="10dp">
+					    <LinearLayout
+					    android:layout_width="wrap_content" 
+					    android:layout_height="wrap_content"
+					    android:layout_alignParentLeft="true">
+					        <ImageView 
+					        android:id="@+id/iconTime"
+					        android:layout_width="24dp"
+					        android:layout_height="24dp"
+					        android:layout_marginTop="1dp"
+					        android:paddingRight="2dp"
+					        android:layout_marginRight="10dp"
+					        android:contentDescription="icon"
+					        android:src="@drawable/circularclock3"
+					        />
+					        <TextView 
+								    android:id="@+id/lblTimeOftheLastVote"
+								    android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"
+								    android:textSize="18sp"
+								    android:text="8:30 PM"
+								    android:layout_marginTop="3dp"
+								    android:textColor="@color/aviavility_textColor"
+								    android:textIsSelectable="true"
+								    android:clickable="true"
+								    />
+					        
+					    </LinearLayout>
+					    
+					        
+								<TextView 
+								    android:id="@+id/btnHelpTimeOftheLastVote"
+								    android:layout_width="wrap_content"
+								    android:layout_height="wrap_content"
+								    android:layout_alignParentRight="true"
+								    android:background="@drawable/card_button"
+								    android:textSize="18sp"
+								    android:textColor="#000000"
+								    android:gravity="right"
+								    android:drawableRight="@drawable/ic_action_help"
+								    android:clickable="true"
+								    />
+					    	
+					    </RelativeLayout>
+               
+           </LinearLayout>
+         <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.3dp"
+		    android:background="#cecece"/>
+            <RelativeLayout
+                android:id="@+id/suggestAvailabilityButtoms"
+ 	             android:layout_width="match_parent"
+    			  android:layout_height="wrap_content"
+    				android:orientation="horizontal"
+    			>
+				<Button
+                android:id="@+id/btnSuggestAvailability"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+  		  	    android:background="@drawable/card_button"					 										   
+			    android:text="@string/ReportAvailability"
+			    android:paddingLeft="20dp"
+			    android:paddingRight="20dp"
+			    android:textSize="12sp"
+			    android:gravity="center_vertical"
+			    android:layout_marginBottom="2dp"
+			    android:drawableLeft="@drawable/ic_action_forward"
+			    android:textColor="@drawable/button_card_text"/>
+	              <Button 
+				    android:id="@+id/btnHelpSuggestAvailability"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+	  		  	    android:background="@drawable/card_button"					 										   
+				    android:layout_alignParentRight="true"
+				    android:textSize="12sp"
+				    android:text="@string/help"
+				    android:layout_marginBottom="2dp"
+				    android:textColor="@drawable/button_card_text"
+				    android:drawableRight="@drawable/ic_action_help"/>
+               
+           </RelativeLayout>
+            
+            
+               
+            
+        </LinearLayout>
+<!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/layout/item_availability_cardview.xml -->

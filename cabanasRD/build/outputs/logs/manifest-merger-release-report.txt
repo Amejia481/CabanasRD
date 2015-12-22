@@ -1,0 +1,226 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:11
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+supports-screens
+ADDED from AndroidManifest.xml:6:11
+	android:resizeable
+		ADDED from AndroidManifest.xml:7:7
+	android:largeScreens
+		ADDED from AndroidManifest.xml:9:7
+	android:anyDensity
+		ADDED from AndroidManifest.xml:12:7
+	android:normalScreens
+		ADDED from AndroidManifest.xml:11:7
+	android:xlargeScreens
+		ADDED from AndroidManifest.xml:10:7
+	android:smallScreens
+		ADDED from AndroidManifest.xml:8:7
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:14:9
+	android:name
+		ADDED from AndroidManifest.xml:14:26
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-feature#0x00020000
+ADDED from AndroidManifest.xml:21:5
+	android:required
+		ADDED from AndroidManifest.xml:23:13
+	android:glEsVersion
+		ADDED from AndroidManifest.xml:22:13
+uses-sdk
+ADDED from AndroidManifest.xml:24:5
+MERGED from cabanasrd:library:unspecified:7:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from cabanasrd:backgroundMailLibrary:unspecified:7:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.google.android.gms:play-services:6.1.11:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:26:13
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:25:13
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:28:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from cabanasrd:backgroundMailLibrary:unspecified:11:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.google.android.gms:play-services:6.1.11:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:31:13
+	android:allowBackup
+		ADDED from AndroidManifest.xml:29:13
+	android:icon
+		ADDED from AndroidManifest.xml:30:13
+	android:theme
+		ADDED from AndroidManifest.xml:32:13
+	android:name
+		ADDED from AndroidManifest.xml:33:13
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:35:9
+	android:name
+		ADDED from AndroidManifest.xml:35:20
+	android:value
+		ADDED from AndroidManifest.xml:35:66
+meta-data#com.google.android.gms.ads.AdActivity
+ADDED from AndroidManifest.xml:36:9
+	android:name
+		ADDED from AndroidManifest.xml:36:20
+	android:value
+		ADDED from AndroidManifest.xml:36:73
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from AndroidManifest.xml:38:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:39:20
+	android:name
+		ADDED from AndroidManifest.xml:38:20
+	android:value
+		ADDED from AndroidManifest.xml:39:61
+activity#com.cabanasrd.ui.activitys.MainActivity
+ADDED from AndroidManifest.xml:41:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:44:17
+	android:label
+		ADDED from AndroidManifest.xml:43:17
+	android:name
+		ADDED from AndroidManifest.xml:42:17
+activity#com.cabanasrd.ui.activitys.LoadingActivity
+ADDED from AndroidManifest.xml:48:12
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:51:17
+	android:label
+		ADDED from AndroidManifest.xml:50:17
+	android:name
+		ADDED from AndroidManifest.xml:49:17
+	android:alwaysRetainTaskState
+		ADDED from AndroidManifest.xml:52:48
+	android:launchMode
+		ADDED from AndroidManifest.xml:52:17
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:53:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:54:17
+	android:name
+		ADDED from AndroidManifest.xml:54:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:55:17
+	android:name
+		ADDED from AndroidManifest.xml:55:27
+activity#com.cabanasrd.ui.activitys.LocationPickerActivity
+ADDED from AndroidManifest.xml:60:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:63:17
+	android:label
+		ADDED from AndroidManifest.xml:62:17
+	android:name
+		ADDED from AndroidManifest.xml:61:17
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from AndroidManifest.xml:69:9
+	android:name
+		ADDED from AndroidManifest.xml:70:13
+	android:value
+		ADDED from AndroidManifest.xml:71:13
+activity#com.cabanasrd.ui.activitys.MotelDetailActivity
+ADDED from AndroidManifest.xml:76:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:79:17
+	android:label
+		ADDED from AndroidManifest.xml:78:17
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:80:17
+	android:name
+		ADDED from AndroidManifest.xml:77:17
+activity#com.cabanasrd.ui.fragments.FragmentSuggestMotel
+ADDED from AndroidManifest.xml:90:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:94:86
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:93:17
+	android:label
+		ADDED from AndroidManifest.xml:92:17
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:94:17
+	android:name
+		ADDED from AndroidManifest.xml:91:17
+activity#com.cabanasrd.ui.activitys.MotelShowAvailabilityActivity
+ADDED from AndroidManifest.xml:104:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:109:17
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:107:17
+	android:label
+		ADDED from AndroidManifest.xml:106:17
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:108:17
+	android:name
+		ADDED from AndroidManifest.xml:105:17
+activity#com.cabanasrd.ui.activitys.AboutUsActivity
+ADDED from AndroidManifest.xml:117:10
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:122:17
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:120:17
+	android:label
+		ADDED from AndroidManifest.xml:119:17
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:121:17
+	android:name
+		ADDED from AndroidManifest.xml:118:17
+activity#com.cabanasrd.ui.activitys.ContactUsActivity
+ADDED from AndroidManifest.xml:130:14
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:135:17
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:133:17
+	android:label
+		ADDED from AndroidManifest.xml:132:17
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:134:17
+	android:name
+		ADDED from AndroidManifest.xml:131:17
+activity#com.google.android.gms.ads.AdActivity
+ADDED from AndroidManifest.xml:143:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:144:19
+	android:theme
+		ADDED from AndroidManifest.xml:145:19
+	android:name
+		ADDED from AndroidManifest.xml:143:19

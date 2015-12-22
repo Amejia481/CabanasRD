@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+ <item android:state_pressed="true" android:drawable="@drawable/rounded_brown_pressed" /> <!-- pressed -->
+ <item android:state_focused="true" android:drawable="@drawable/rounded_brown_pressed"/> <!-- focused -->
+ <item android:drawable="@drawable/rounded_brown"/> <!-- default -->
+
+</selector>
+<!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/drawable/rounded_button.xml -->

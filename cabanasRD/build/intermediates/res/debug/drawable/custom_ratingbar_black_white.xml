@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+android:id/background"
+android:drawable="@drawable/custom_ratingbar_empty" />
+   
+
+<item android:id="@+android:id/secondaryProgress"
+android:drawable="@drawable/custom_ratingbar_filled_yellow" />
+
+    
+    <item android:id="@+android:id/progress"
+android:drawable="@drawable/custom_ratingbar_filled_yellow" />
+</layer-list>
+<!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/drawable/custom_ratingbar_black_white.xml -->

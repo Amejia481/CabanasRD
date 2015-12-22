@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+    <EditText
+        android:id="@+id/txtMotelServiceName"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:hint="@string/nameService" />
+    
+    <Spinner
+	    android:id="@+id/motels_services_types"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+        android:layout_marginBottom="10dp"
+		/>
+    <EditText
+        android:id="@+id/txtMotelServicePrice"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/price"/>
+    <Spinner
+	    android:id="@+id/motels_services_currency_type"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+        android:layout_marginBottom="5dp"
+	/>
+</LinearLayout>

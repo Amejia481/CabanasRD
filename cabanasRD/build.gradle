@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'cabanasrd'
+            keyPassword '1.ZA*2_254682369+_'
+            storeFile file('C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0 (1)/cabanasrd/publish/key')
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.cabanasrd"
+        minSdkVersion 9
+        targetSdkVersion 21
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile project(':library')
+    compile project(':backgroundMailLibrary')
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.android.support:support-v4:21.0.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.google.android.gms:play-services:6.1.11'
+    compile 'joda-time:joda-time:2.3'
+    compile files('libs/prettytime-3.2.7.Final.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+}
+
+
+
+
+
+

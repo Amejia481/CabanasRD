@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_divider">#272727</color>
+    <color name="orange_dark">#FB8C00</color>
+    <color name="default_color">#FF923A</color>
+       <color name="white">#FFFFFF</color>
+       <color name="white_brown">#e1a782</color>
+       <color name="aviavility_full">#D32F2F</color>
+       <color name="aviavility_regular">#FFA000</color>
+       <color name="aviavility_empty">#689F38</color>
+         <color name="aviavility_textColor">#727272</color>
+         <color name="aviavility_any">#6C7A89</color>
+         
+       
+</resources>

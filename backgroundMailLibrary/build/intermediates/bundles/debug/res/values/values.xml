@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/backgroundMailLibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Background Mail Library</string>
+    <string name="loading">Loading…</string>
+    <string name="message_send">Your message was sent successfully.</string>
+    <string name="no_email_recipient">You didn\'t set email recipient!</string>
+    <string name="no_gmail_password">You didn\'t set Gmail password!</string>
+    <string name="no_gmail_username">You didn\'t set Gmail username!</string>
+    <string name="no_internet">User don\'t have internet connection!</string>
+    <!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/backgroundMailLibrary/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

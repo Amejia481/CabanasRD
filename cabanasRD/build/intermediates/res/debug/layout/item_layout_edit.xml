@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:layout_marginTop="10dp">
+    <LinearLayout
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true">
+        <ImageView 
+        android:id="@+id/iconService"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="3dp"
+        android:paddingRight="2dp"
+        android:contentDescription="icon"
+        android:src="@drawable/ic_call"
+        />
+
+        <TextView
+            android:id="@+id/lblTimeOftheLastVote"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+        
+    </LinearLayout>
+    
+        
+			<TextView 
+			    android:id="@+id/service_value"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+			    android:textSize="18sp"
+			    android:textColor="#000000"
+			    android:gravity="right"
+			    android:clickable="true"
+			    android:drawablePadding="2dp"
+			    android:drawableRight="@drawable/ic_action_remove"
+			    />
+			
+    	
+    </RelativeLayout>
+<!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/layout/item_layout_edit.xml -->

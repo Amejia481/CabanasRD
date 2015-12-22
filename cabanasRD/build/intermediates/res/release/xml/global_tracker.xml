@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.cabanasrd.ui.activitys.MainActivity">
+        MainActivity
+    </screenName>
+    <screenName name="com.cabanasrd.ui.activitys.LoadingActivity">
+        LoadingActivity
+    </screenName>
+     
+     <screenName name="com.cabanasrd.ui.activitys.MotelDetailActivity">
+        MotelDetailActivity
+    </screenName>
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-57906569-1</string>
+</resources><!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/xml/global_tracker.xml -->

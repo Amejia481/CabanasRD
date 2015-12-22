@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollViewSujectMotel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+     >
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:padding="10dp"
+	    android:orientation="vertical" >
+
+		
+	
+					    
+					
+					    
+					    
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center_horizontal"
+				    android:padding="10dp"
+				    android:orientation="vertical" >
+					   
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/cardview"
+    android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/lblSiteInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SiteInfo"
+                android:textSize="25sp"
+			    android:textColor="#8a430e"
+			    android:padding="10dp"
+                />
+           <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#ffa55c"/>
+         
+           <EditText
+					        android:id="@+id/txtName"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:hint="@string/name"
+					        android:inputType="textPersonName"
+							android:layout_marginTop="5dp"
+							android:layout_marginLeft="5dp"
+							android:layout_marginRight="5dp"
+							android:layout_marginBottom="10dp">
+					
+					        
+					    </EditText>
+            <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.3dp"
+		    android:background="#cecece"
+		    android:layout_marginBottom="10dp"/>
+          
+            <Spinner
+						    android:id="@+id/cb_motels_type"
+						    android:layout_width="fill_parent"
+						    android:layout_height="wrap_content"
+						    android:textColor="@android:color/black" 
+						    android:layout_marginBottom="20dp"/>
+            
+        </LinearLayout>	   
+							
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/cardview"
+    android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_info"
+                android:textSize="25sp"
+                android:focusable="true"
+        		android:focusableInTouchMode="true"	
+			    android:textColor="#8a430e"
+			    android:padding="10dp"
+                />
+          <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#ffa55c"/>
+           <LinearLayout
+               android:id="@+id/cardViewLocation"
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:padding="10dp">
+               
+           </LinearLayout>
+            <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#cecece"/>
+            <RelativeLayout
+ 	             android:layout_width="match_parent"
+    			  android:layout_height="wrap_content"
+    				android:orientation="horizontal"
+    			>
+				<Button
+                android:id="@+id/btnPickLocation"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+  		  	    android:background="@drawable/card_button"					 										   
+			    android:text="@string/LocationSet"
+			    android:paddingLeft="15dp"
+			    android:paddingRight="15dp"
+			    android:textSize="12sp"
+			    android:gravity="center_vertical"
+			    android:layout_marginBottom="2dp"
+			    android:drawableLeft="@drawable/ic_action_forward"
+			    android:textColor="@drawable/button_card_text"/>
+	              <Button 
+				    android:id="@+id/btnHelpLocation"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+	  		  	    android:background="@drawable/card_button"					 										   
+				    android:layout_alignParentRight="true"
+				    android:textSize="12sp"
+				    android:text="@string/help"
+				    android:gravity="center_vertical"
+				    android:layout_marginBottom="2dp"
+				    android:textColor="@drawable/button_card_text"
+				    android:drawableRight="@drawable/ic_action_help"/>
+               
+           </RelativeLayout>
+            
+             </LinearLayout>				    		
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/cardview"
+    android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/lblServices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/services"
+                android:textSize="25sp"
+			    android:textColor="#8a430e"
+			    android:padding="10dp"
+                />
+           <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#ffa55c"/>
+           
+           <LinearLayout
+                android:id="@+id/cardViewServicesPrices"
+ 	            android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:padding="10dp">
+           			    
+           </LinearLayout>
+         <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.3dp"
+		    android:background="#cecece"/>
+            <RelativeLayout
+ 	             android:layout_width="match_parent"
+    			  android:layout_height="wrap_content"
+    				android:orientation="horizontal"
+    			>
+				<Button
+	                android:id="@+id/btnAddNewServicieMotel"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+	  		  	    android:background="@drawable/card_button"					 										   
+				    android:text="@string/SerciceAdd"
+				    android:paddingLeft="20dp"
+				    android:paddingRight="20dp"
+				    android:textSize="13sp"
+				    android:gravity="center_vertical"
+				    android:layout_marginBottom="2dp"
+				    android:drawableLeft="@drawable/ic_action_forward"
+				    android:layout_alignParentLeft="true"
+				    android:textColor="@drawable/button_card_text"/>
+	              <Button 
+				    android:id="@+id/btnHelpImageService"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+	  		  	    android:background="@drawable/card_button"					 										   
+				    android:layout_alignParentRight="true"
+				    android:textSize="12sp"
+				    android:text="@string/help"
+				    android:gravity="center_vertical"
+				    android:layout_marginBottom="2dp"
+				    android:textColor="@drawable/button_card_text"
+				    android:drawableRight="@drawable/ic_action_help"/>
+               
+           </RelativeLayout>
+            
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/cardview"
+    android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblTels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phones_numbers"
+                android:textSize="25sp"
+			    android:textColor="#8a430e"
+			    android:padding="10dp"
+                />
+           <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#ffa55c"/>
+            <LinearLayout
+               android:id="@+id/cardViewServicesTelephons"
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:padding="10dp">
+               
+           </LinearLayout>
+        <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.3dp"
+		    android:background="#cecece"/>
+                        <RelativeLayout
+ 	             android:layout_width="match_parent"
+    			  android:layout_height="wrap_content"
+    				android:orientation="horizontal"
+    			>
+				<Button
+                android:id="@+id/btnSuggestedTelephons"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+  		  	    android:background="@drawable/card_button"					 										   
+			    android:text="@string/TelephoneAdd"
+			    android:paddingLeft="20dp"
+			    android:paddingRight="20dp"
+			    android:textSize="13sp"
+			    android:gravity="center_vertical"
+			    android:layout_marginBottom="2dp"
+			    android:drawableLeft="@drawable/ic_action_forward"
+			    android:textColor="@drawable/button_card_text"/>
+	              <Button 
+				    android:id="@+id/btnHelpImagePhones"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+	  		  	    android:background="@drawable/card_button"					 										   
+				    android:layout_alignParentRight="true"
+				    android:textSize="12sp"
+				    android:text="@string/help"
+				    android:gravity="center_vertical"
+				    android:layout_marginBottom="2dp"
+				    android:textColor="@drawable/button_card_text"
+				    android:drawableRight="@drawable/ic_action_help"/>
+               
+           </RelativeLayout>
+            
+        </LinearLayout>		
+        
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/cardview"
+    android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblAditionalInfo_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/creditCards"
+                android:textSize="25sp"
+			    android:textColor="#8a430e"
+			    android:padding="10dp"
+                />
+          <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#ffa55c"/>
+           <LinearLayout
+               android:id="@+id/cardViewCreditCards"
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:padding="10dp">
+               
+           </LinearLayout>
+            <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#cecece"/>
+            <RelativeLayout
+ 	             android:layout_width="match_parent"
+    			  android:layout_height="wrap_content"
+    				android:orientation="horizontal"
+    			>
+				<Button
+                android:id="@+id/btnSuggestCreditCards"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+  		  	    android:background="@drawable/card_button"					 										   
+			    android:text="@string/CreditCardAdd"
+			    
+			    android:paddingLeft="15dp"
+			    android:paddingRight="15dp"
+			    android:textSize="12sp"
+			    android:gravity="center_vertical"
+			    android:layout_marginBottom="2dp"
+			    android:drawableLeft="@drawable/ic_action_forward"
+			    android:textColor="@drawable/button_card_text"/>
+	              <Button 
+				    android:id="@+id/btnHelpCreditcars"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+	  		  	    android:background="@drawable/card_button"					 										   
+				    android:layout_alignParentRight="true"
+				    android:textSize="12sp"
+				    android:text="@string/help"
+				    android:gravity="center_vertical"
+				    android:layout_marginBottom="2dp"
+				    android:textColor="@drawable/button_card_text"
+				    android:drawableRight="@drawable/ic_action_help"/>
+               
+           </RelativeLayout>
+            
+             </LinearLayout>	
+             
+	
+             				
+				    	
+				    		
+							   
+			<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/cardview"
+    android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblImages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/images_info"
+                android:textSize="25sp"
+			    android:textColor="#8a430e"
+			    android:padding="10dp"
+                />
+          <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#ffa55c"/>
+           <LinearLayout
+               android:id="@+id/cardViewImages"
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical"
+    			android:padding="10dp">
+				
+               <!-- 
+               
+               	<include layout="@layout/item_layout_edit_images"/>
+               	<include layout="@layout/item_layout_edit_images"/>
+                -->
+
+           </LinearLayout>
+            <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#cecece"/>
+            <RelativeLayout
+ 	             android:layout_width="match_parent"
+    			  android:layout_height="wrap_content"
+    				android:orientation="horizontal"
+    			>
+				<Button
+                android:id="@+id/btnAddImage"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+  		  	    android:background="@drawable/card_button"					 										   
+			    android:text="@string/AddImages"
+			    
+			    android:paddingLeft="15dp"
+			    android:paddingRight="15dp"
+			    android:textSize="12sp"
+			    android:gravity="center_vertical"
+			    android:layout_marginBottom="2dp"
+			    android:drawableLeft="@drawable/ic_action_forward"
+			    android:textColor="@drawable/button_card_text"/>
+	              <Button 
+				    android:id="@+id/btnHelpImage"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+	  		  	    android:background="@drawable/card_button"					 										   
+				    android:layout_alignParentRight="true"
+				    android:textSize="12sp"
+				    android:text="@string/help"
+				    android:gravity="center_vertical"
+				    android:layout_marginBottom="2dp"
+				    android:textColor="@drawable/button_card_text"
+				    android:drawableRight="@drawable/ic_action_help"/>
+               
+           </RelativeLayout>
+            
+             </LinearLayout>
+				    </LinearLayout>
+					    <Button
+					        android:id="@+id/btnSend"
+					        android:layout_width="134dp"
+					        android:layout_height="wrap_content"
+					        android:layout_gravity="center_horizontal"
+					        android:layout_marginBottom="20dp"
+					        android:layout_marginTop="10dp"
+					        android:background="@drawable/rounded_button"
+					        android:text="@string/send"
+					        android:textColor="@drawable/button_text_color" />
+
+		
+	</LinearLayout>
+</ScrollView>

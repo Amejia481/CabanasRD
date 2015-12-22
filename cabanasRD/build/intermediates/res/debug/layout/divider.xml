@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <View
+         xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0.3dp"
+	    
+	    android:background="#cecece"/>
+    <!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/layout/divider.xml -->

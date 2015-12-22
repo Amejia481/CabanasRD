@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="2dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:id="@+id/iconService"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="3dp"
+            android:contentDescription="icon"
+            android:paddingRight="2dp"
+            android:src="@drawable/ic_call" />
+
+        <TextView
+            android:id="@+id/lblTimeOftheLastVote"
+            android:layout_width="479dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/service_value"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textIsSelectable="true"
+        android:textSize="26sp" />
+
+</RelativeLayout>

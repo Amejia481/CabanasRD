@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:com.cabanasrd="http://schemas.android.com/apk/res-auto"
+    >
+ <item android:id="@+id/action_help_picky_location" 
+        com.cabanasrd:showAsAction="ifRoom"
+        android:icon="@drawable/ic_help_white"
+        android:title="@string/help"/>
+
+</menu>
+<!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/menu/activity_pick_location.xml -->

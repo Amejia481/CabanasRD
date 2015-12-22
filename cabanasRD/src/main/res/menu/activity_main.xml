@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:com.cabanasrd="http://schemas.android.com/apk/res-auto"
+    >
+   
+     <item android:id="@+id/action_searchItem" 
+        com.cabanasrd:showAsAction="withText|ifRoom"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_action_search"
+        com.cabanasrd:actionViewClass="android.support.v7.widget.SearchView" />
+
+  <item android:id="@+id/action_create_new_motel" 
+
+        com.cabanasrd:showAsAction="ifRoom"
+        android:icon="@drawable/ic_map_location_share"
+        android:title="@string/placeAdd"/>
+     
+ <item android:id="@+id/action_share_app" 
+        com.cabanasrd:showAsAction="never"
+        android:icon="@drawable/ic_share"
+        android:title="@string/lblShareApp"/>
+ 
+ 
+</menu>

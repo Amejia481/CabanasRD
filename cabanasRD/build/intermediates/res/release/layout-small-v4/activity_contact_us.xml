@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:fillViewport="true"
+     >
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:padding="10dp"
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/editText1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:text="@string/formContactUs"
+		    android:textColor="@color/default_color"
+		    android:layout_marginBottom="10dp"
+		    android:textSize="@dimen/abc_text_size_headline_material"
+		    android:textStyle="normal|bold" />
+	
+					    <EditText
+					        android:id="@+id/txtName"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:hint="@string/name"
+					        android:inputType="textPersonName"
+							android:layout_marginTop="5dp"
+							android:layout_marginBottom="5dp">
+					
+					        <requestFocus />
+					    </EditText>
+					
+					    <EditText
+					        android:layout_marginTop="5dp"
+							android:layout_marginBottom="5dp"
+					        android:id="@+id/txtTitle"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:hint="@string/subjet"
+					        android:inputType="textPersonName" />
+					
+					    <EditText
+					        android:layout_marginTop="5dp"
+							android:layout_marginBottom="5dp"
+					        android:id="@+id/txtMessage"
+					        android:layout_width="match_parent"
+					        android:layout_height="0dp"
+					        android:layout_weight="0.15"
+					        android:hint="@string/message"
+					        android:inputType="textMultiLine" />
+					
+					    <Button
+					        android:id="@+id/btnSend"
+					        android:layout_width="134dp"
+					        android:layout_height="wrap_content"
+					        android:layout_gravity="center_horizontal"
+					        android:layout_marginBottom="20dp"
+					        android:layout_marginTop="10dp"
+					        android:background="@drawable/rounded_button"
+					        android:text="@string/send"
+					        android:textColor="@drawable/button_text_color" />
+
+		
+	</LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/layout-small/activity_contact_us.xml -->

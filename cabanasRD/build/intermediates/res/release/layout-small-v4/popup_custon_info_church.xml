@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:padding="10dp"
+
+        >
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/popupDescriptionChurch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#ff7f7f7f"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:layout_gravity="center_horizontal"
+
+                />
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="right"
+                android:divider="@color/list_divider"
+
+                > 
+                <TextView
+                android:id="@+id/popupDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#ff7f7f7f"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:text="@string/click_para_ver_detalles"
+                android:layout_gravity="center_horizontal"
+
+                />
+                 <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_call"
+                android:layout_gravity="center"
+                android:id="@+id/btnCallChurch"
+
+                android:visibility="gone"/>
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add_person"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnAddChurchToContacts"
+
+                    android:visibility="gone"/>
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_share"
+                    android:layout_gravity="center"
+                    android:id="@+id/btnShareChurch"
+
+                    android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/layout-small/popup_custon_info_church.xml -->

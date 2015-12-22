@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:com.cabanasrd="http://schemas.android.com/apk/res-auto"
+    >
+  <item android:id="@+id/menu_help_availability" 
+        com.cabanasrd:showAsAction="ifRoom"
+        android:icon="@drawable/ic_help_white"
+        android:title="@string/help"/>
+  
+ <item android:id="@+id/menu_refresh_availability" 
+        com.cabanasrd:showAsAction="ifRoom"
+        android:icon="@drawable/ic_refresh_white"
+        android:title="@string/help"/>
+
+</menu>

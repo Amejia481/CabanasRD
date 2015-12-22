@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	>
+
+	    
+	<ImageView
+		android:id="@+id/image_motel"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:adjustViewBounds="true"
+		android:scaleType="fitXY"
+		android:contentDescription="Image" />
+
+	<ProgressBar
+		android:id="@+id/loading_image_motel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:visibility="gone" />
+
+</LinearLayout><!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/layout-small/item_pager_image_motel.xml -->

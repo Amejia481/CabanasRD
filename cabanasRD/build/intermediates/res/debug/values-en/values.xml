@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Arturo/Downloads/arturomej481-cabanasrdandroid-7049ea4eebf0%20(1)/cabanasrd/cabanasRD/src/main/res/values-en/strings.xml -->
+    <eat-comment/>
+    <string-array name="availability">
+        <item>Is Empty</item>
+        <item>Is More or Less</item>
+        <item>Is Full</item>
+    </string-array>
+    <string-array name="motels_services_currency_type">
+        <item>Dominican Peso (DOP$)</item>
+        <item>United States dollar (USD$)</item>
+        <item>Euro (EUR$)</item>
+    </string-array>
+    <string-array name="motels_services_currency_type_short">
+        <item>DOP</item>
+        <item>USD</item>
+        <item>EUR</item>
+    </string-array>
+    <string-array name="motels_services_types">
+        <item>Housing</item>
+        <item>Entertainment</item>
+        <item>Food or Drinks</item>
+        <item>Other</item>
+        
+    </string-array>
+    <string-array name="motels_services_types_menu">
+        <item>Food or Drinks</item>
+        
+    </string-array>
+    <string-array name="motels_types">
+        <item>Housing</item>
+        <item>Hotel</item>
+        <item>Motel</item>
+    </string-array>
+    <string-array name="nav_drawer_menu_left">
+		<item>Places Nearby</item>
+	    <item>About Cabañas RD </item>
+	    <item>Contact Us</item>
+	    <item>Suggests a place</item>
+   </string-array>
+    <string name="AD_UNIT_ID">ca-app-pub-9044900325608369/3408985739</string>
+    <string name="AddImages">Add</string>
+    <string name="CreditCardAdd">Add</string>
+    <string name="CreditCardSuggested">Suggest</string>
+    <string name="DECODING_ERROR">Image can not be decoded</string>
+    <string name="FragmentSuggestMotelActivity">Add place</string>
+    <string name="IO_ERROR">The image can not be loaded</string>
+    <string name="ImageSuggested">Suggest image </string>
+    <string name="LocationSet">Choose</string>
+    <string name="MenuSuggested">Suggest Menu</string>
+    <string name="NETWORK_DENIED">Downloads are denied</string>
+    <string name="OUT_OF_MEMORY">Out Of Memory error</string>
+    <string name="ReportAvailability">Report</string>
+    <string name="SeciceSuggested">Suggest</string>
+    <string name="SerciceAdd">Add</string>
+    <string name="SiteInfo">Place Information</string>
+    <string name="TelephoneAdd">Add</string>
+    <string name="TelephoneSuggested">Suggest</string>
+    <string name="UNKNOWN">Unknown error</string>
+    <string name="aboutTheApp">About The App</string>
+    <string name="about_text">Locate both cottages and hotels in the Dominican Republic, obtaining information like prices, images, possible routes of arrival and ratings.</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">settings</string>
+    <string name="add_aditional_info">Suggest</string>
+    <string name="aditional_service_info">Additional Information</string>
+    <string name="app_name">Cabañas RD</string>
+    <string name="availability_any">No one has reported yet!</string>
+    <string name="availability_empty">Is Empty</string>
+    <string name="availability_full">Is Full</string>
+    <string name="availability_medium">Is Middle</string>
+    <string name="beTheFirst">!Be the first!</string>
+    <string name="btnHelpCreditcars">You can contribute suggesting credit cards that are accepted at this place, eg they only accept  Visa and MasterCard. \n\n
+All data provided are sent anonymously and will be reviewed by our staff, for possible publication.</string>
+    <string name="btnHelpImages">You can contribute suggesting images of this place, such as a photo of the inside or outside of a room \n\n
+All data provided are sent anonymously and will be reviewed by our staff, for possible publication.</string>
+    <string name="btnHelpLocation">You can contribute suggesting a location of this place,eg it near  Independence Avenue \n\n
+All data provided are sent anonymously and will be reviewed by our staff, for possible publication.</string>
+    <string name="btnHelpMenu">You can contribute suggesting menu items that are offered at this location, eg food or drinks. \n\n All supplied data is sent anonymously and will be reviewed by our staff, for possible publication.</string>
+    <string name="cancel">Cancel</string>
+    <string name="click_para_ver_detalles">(Tap to see details)</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="creditCards">Credit cards</string>
+    <string name="dash">--</string>
+    <string name="delete_image">Delete Image</string>
+    <string name="description_hint">Write a description...</string>
+    <string name="detailActivity">Place  Detail</string>
+    <string name="drawer_close">Closed menu</string>
+    <string name="drawer_open">Options</string>
+    <string name="fastMotel">Fast</string>
+    <string name="formContactUs"><u>Contact Form</u></string>
+    <string name="formSuggestsCabin">Suggests a cabin, hotel or motel.</string>
+    <string name="help">Help</string>
+    <string name="helpAvailability">Through this option you can see the availability of this local, you can see if it is full, half or empty.\n\nYou can also collaborate reporting availability, if you are near this place, press the report button,so you can share information with other users.\n\nThe availability is calculated based on  reports of the users, while more reports have and less time, more reliable the data will be. Only locals who are subscribed to the service availability online can provide fully reliable information, others can only provide estimates based on reports from users.</string>
+    <string name="helpAviavilityCountOfUserThatVoted">This number indicates the number of users who have voted, the greater the amount will be more reliable information.</string>
+    <string name="helpImagePhones">You can contribute suggesting a phone number that you know  of this place. \n\n
+All data provided are sent anonymously and will be reviewed by our staff, for possible publication.</string>
+    <string name="helpImageService">You can suggest a service that you  know that this place offers, each service has a name, type, and price eg name: Room Classic, type: Bed and price: $ 800.
+\n \n All data provided are sent anonymously and will be evaluated by our team for possible publication.
+</string>
+    <string name="helpSuggestAvailabilityEmpty">You can contribute by reporting the availability of this place.\n\nPressing the button you are indicating that this place is EMPTY!!, you can only report if you are at a close distance of local! (like the range of a wireless network). All data supplied are sent anonymously.
+</string>
+    <string name="helpSuggestAvailabilityFull">You can contribute by reporting the availability of this place.\n\nPressing the button you are indicating that this place is FULL!!, you can only report if you are at a close distance of local! (like the range of a wireless network). All data supplied are sent anonymously.
+</string>
+    <string name="helpSuggestAvailabilityMedium">You can contribute by reporting the availability of this place.\n\nPressing the button you are indicating that this place is MEDIUM!!, you can only report if you are at a close distance of local! (like the range of a wireless network). All data supplied are sent anonymously.
+</string>
+    <string name="helpSuggestPlace">You can collaborate with the application, suggesting new places that you know that they are not included in the app.
+\n\n All data provided are sent anonymously and will be evaluated by our team for possible publication.
+</string>
+    <string name="helpTimeOftheLastVote">This indicates the time that has elapsed since the last vote was held.
+\n\nThe less time will be the most reliable the  information.
+</string>
+    <string name="iGotIt">I get it!</string>
+    <string name="image_description">Image description suggested</string>
+    <string name="images_info">Images</string>
+    <string name="information">Information</string>
+    <string name="km">KM</string>
+    <string name="later">Later</string>
+    <string name="lblAdd">Add</string>
+    <string name="lblPickLocation">Selecciona la ubicación</string>
+    <string name="lblShare">Share</string>
+    <string name="lblShareApp">Share App</string>
+    <string name="loading">Loading</string>
+    <string name="location_info">Location</string>
+    <string name="menu">Menu</string>
+    <string name="menuSuggested">Suggest Menu</string>
+    <string name="message">Message</string>
+    <string name="meters">Meters</string>
+    <string name="motel_normal">Normal</string>
+    <string name="motel_vip">VIP</string>
+    <string name="msErrorConnection">Connection Error.</string>
+    <string name="msErrorEmptyField">You must complete the field.</string>
+    <string name="msErrorMultipleChoiceInvalid">Debes seleccionar al menos una opción!</string>
+    <string name="msErrorNoDataFound">No Record found :(</string>
+    <string name="msGPSdisabled">The location service is disabled, it\'s need to show you nearby Places.\n\nPlease enable the location service.</string>
+    <string name="msInternetNoConnection">There is not internet access.</string>
+    <string name="ms_app_outdated">Outdated application</string>
+    <string name="ms_update_app">You have an outdated version of the App. \n\n To use app you must upgrade.</string>
+    <string name="name">Name</string>
+    <string name="nameService">Service Name</string>
+    <string name="needGoogleMapApp">To see the route you need the Google Maps App</string>
+    <string name="newFeature">New Features</string>
+    <string name="newFeatureDescription0">Hoteles o Cabañas NO REGISTRADOS.</string>
+    <string name="newFeatureDescription1">For quick differentiation between hotels and cabins, now everyone has a different icon.</string>
+    <string name="newFeatureDescription2">The hotels have a green icon.</string>
+    <string name="newFeatureDescription3">The cabins have a color orange icon.</string>
+    <string name="no">No</string>
+    <string name="no_conn_error">No internet</string>
+    <string name="no_conn_message">Connect your device to an internet network to get all data</string>
+    <string name="notAvailable">Not available</string>
+    <string name="ok">I get it!</string>
+    <string name="phone"> Telephone Number </string>
+    <string name="phones_numbers">Phones Numbers</string>
+    <string name="placeAdd">Add place</string>
+    <string name="placeNoRegister">UNREGISTERED / UNCONFIRMED</string>
+    <string name="price">Price</string>
+    <string name="search">Search</string>
+    <string name="searchPattern">Hotel Name</string>
+    <string name="searching_info">Looking for location information</string>
+    <string name="searching_message">Wait a moment</string>
+    <string name="see_aviavility">Availability</string>
+    <string name="see_route">See Route</string>
+    <string name="selectPosition">Select Position</string>
+    <string name="selectPositionHelp">Tap to select the desired location, then press the button to select address. \n\n Not worry if the item is not on the exact location, it is an approximation of address, our team will be  verifying the accuracy of the data.</string>
+    <string name="select_location_info">Please select the location of the local</string>
+    <string name="send">Send</string>
+    <string name="sending">Sending…</string>
+    <string name="server_error">Error</string>
+    <string name="server_message">Could not register your device</string>
+    <string name="services">Services</string>
+    <string name="showAvailability">Show Availability</string>
+    <string name="slogan">Find the nearest Hotel to you</string>
+    <string name="subjet">Subject</string>
+    <string name="suggest_info">Suggest</string>
+    <string name="tellTheMotelIsEmpty">Is Empty</string>
+    <string name="tellTheMotelIsFull">Is Full</string>
+    <string name="tellTheMotelIsMedium">Is Medium</string>
+    <string name="thanksContibution">Thank you for your contribution</string>
+    <string name="thanksForSubmitInfo">Thanks for being part of the community of collaborators, your help is welcome!.
+\n\n All data provided are sent anonymously and will be evaluated by our team for possible publication.
+</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="vote">Vote(s)</string>
+    <string name="vote_done">Thanks for voting!</string>
+    <string name="vote_updated">Have you updated your vote </string>
+    <string name="weNeedYourHelpText">Por favor cada vez que vayas a un local no registrado, pregúntales por que no están registrados en Cabañas RD.</string>
+    <string name="weNeedYourHelpText2">Contamos con tu ayuda.\n Para más información www.cabanasrd.com.do 809-607-6736</string>
+    <string name="weNeedYourHelpTitle">Necesitamos de tu ayuda.</string>
+    <string name="yes">Yes</string>
+    <string name="youCantReportAvailability">To report you must be at a distance not exceeding the range of a Wi-Fi wireless network, specifically 100 meters.</string>
+</resources>
