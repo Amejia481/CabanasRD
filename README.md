@@ -24,9 +24,10 @@ You can give a look to open issues tab, there you can find  new features and bug
 If we note that someone is very active and has remarkable participation in the repo, would receive offer to become a repository moderator. 
  
 ### Related Repository
- - iOS App [under contruction].
- - Back End [under contruction].
- - [Landing page] [Lading_page].
+- [Landing page] [Lading_page]. 
+- iOS App [under contruction].
+- Back End [under contruction].
+ 
 
 ### Extra Help
 
