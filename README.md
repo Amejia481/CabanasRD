@@ -25,7 +25,7 @@ If we notice that someone is very active and has remarkable participation in the
  
 ### Related Repository
 - [Landing page] [Lading_page]. 
-- iOS App [under contruction].
+- [iOS App][ios_repo].
 - Back End [under contruction].
  
 
@@ -38,3 +38,4 @@ If you need help with the repo or you have any question, you can ask to Arturo m
 [best_practice]: <https://www.youtube.com/playlist?list=PLWz5rJ2EKKc-lJo_RGGXL2Psr8vVCTWjM>
 [playstore]: <https://play.google.com/store/apps/details?id=com.cabanasrd>
 [appsite]: <http://cabanasrd.com.do/>
+[ios_repo]: <https://github.com/Amejia481/CabanasRDIOSAPP/>
