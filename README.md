@@ -2,10 +2,10 @@
 # Cabañas RD Android App
 
 
-This is source code for Cabañas RD android app you can get more info about the
+This is the source code for Cabañas RD android app you can get more info about the
 app here [Google Play] [playstore] and [app site] [appsite].
 
-**We are open improvements**, if you like the app and  think that there is something  missing, or simply you want  improve something, you can do it!. We are open to suggestions like UI/UX,architectural design  or whatever thing you think that should be improve.
+**We are open improvements**, if you like the app and  think that there is something  missing, or perhaps you want  improve something, you can do it!. We are open to suggestions like UI/UX,architectural design  or whatever thing you think that should be improve.
 
 ### Pull Request
 
@@ -21,7 +21,7 @@ You can give a look to open issues tab, there you can find  new features and bug
  - Try to follow android patterns and best practice [source 1] [best_practice] [source 2] [performace_android]
 
 ### Become Repository Moderator
-If we note that someone is very active and has remarkable participation in the repo, would receive offer to become a repository moderator. 
+If we notice that someone is very active and has remarkable participation in the repo, would receive offer to become a repository moderator. 
  
 ### Related Repository
 - [Landing page] [Lading_page]. 
